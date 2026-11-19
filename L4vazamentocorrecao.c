@@ -4,7 +4,7 @@
 void aloca(void) {
     int *bloco = malloc(1000 * sizeof(int));
     if (bloco == NULL) {
-        return NULL;
+        return 1;
     }
 
     bloco[0] = 1;
